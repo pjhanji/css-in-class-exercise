@@ -1,0 +1,85 @@
+body{
+   font-family: 'Bree Serif', serif;
+    font-size: 24px;
+}
+.shelf{
+    height: 10px;
+    width: 800px;
+    background: #27000A;
+    position: absolute;
+    top: 360px;
+    left:330px;
+    border-radius:20px;
+}
+
+.shelf1{
+    height: 10px;
+    width: 800px;
+    background: #27000A;
+    position: absolute;
+    top: 660px;
+    left: 330px;
+    border-radius:20px;
+}
+
+.teabag{
+    height: 260px;
+    width: 200px;
+    position: absolute;
+    border-radius:20px;
+    transition: .5s;
+    text-align: center;
+    color: white;
+    line-height: 260px;
+    cursor: pointer;
+}
+
+.teabag:hover{
+    height:280px;
+    transition:.5s;
+    font-size:28px;
+    transform: rotate(15deg);
+}
+
+.greentea{
+    background: #60A33E;
+    top:100px;
+    left:350px;
+}
+
+.chaitea{
+    background: #E8810C;
+    top: 100px;
+    left:630px;
+}
+
+.flowertea{
+    background: blue;
+    top: 100px;
+    left:910px;
+}
+
+.greentea:hover,
+.chaitea:hover,
+.flowertea:hover{ top:60px; }
+
+.blacktea{
+    background: #524137;
+    top: 400px;
+    left:350px;
+}
+
+.redtea{
+    background: #A13C29;
+    top: 400px;
+    left:630px;
+}
+.yellowtea{
+    background: #E8BD00;
+    top: 400px;
+    left:910px;
+}
+
+.blacktea:hover,
+.redtea:hover,
+.yellowtea:hover{ top:360px; }

@@ -1,0 +1,151 @@
+body{
+    font-family:'Raleway',Helvetica, Arial, sans-serif;
+}
+h1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 0px;
+    margin-bottom: -30px;
+    margin-top: 100px;
+}
+h2{
+    font-size: 130px;
+    font-weight: 800;
+    line-height: 150px;
+    margin-top: 50px;
+}
+h3{
+    font-size: 24px;
+    text-align: center;
+}
+
+h4{
+font-size: 100px;
+line-height: 14px;
+font-weight:100px;
+text-align: center;
+margin-top: -70px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+.centerimage{
+    margin:10px 0px 10px 0px;
+    text-align: center;
+}
+.row { width: 100%;
+}
+.col-3 { 
+    width: 25%;
+    float: left;
+    position: relative;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+    position: relative;
+    line-height: 10px;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.square1 {
+    width: 600px;
+    height: 600px;
+    border: 1px solid #F0F0F0;
+    font-family: Brown, arial, sans-serif;
+    font-size: 40px;
+    line-height: 10px;
+    text-align: center;
+}
+.square2 {
+    width: 600px;
+    height: 600px;
+    border: 1px solid #F0F0F0;
+    font-family: Brown, arial, sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+.square3 {
+    width: 560px;
+    height: 560px;
+    border: 1px solid #F0F0F0;
+    font-family: Brown, arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    padding: 0px;
+}
+.square4 {
+    width: 490px;
+    height: 490px;
+    border: 1px solid #F0F0F0;
+    font-family: Brown, arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    padding: 55px;
+    color: white;
+}
+.square5 {
+    width: 490px;
+    height: 490px;
+    border: 1px solid #F0F0F0;
+    font-family: Brown, arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    padding: 55px;
+    color:white;
+}
+.square6 {
+    width: 600px;
+    height: 600px;
+    border: 1px solid #F0F0F0;
+    font-family: Brown, arial, sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+.doublesquare{
+    width: 1200px;
+    height: 600px;
+}
+
+.lidyellow {
+    width: 100%;
+    height: 38px;
+    margin-bottom:2px;
+    border-radius: 8px;
+    background: url("yellow.jpg") center;
+    box-shadow: 6px 6px 10px #CCC;
+    transition-delay: .2s;
+}
+.box:hover .lidyellow {
+    transform: rotate(-25deg);
+    transform-origin: 0% 100%;
+     transition-delay: .2s;
+}
+.jaryellow{
+    width:100%;
+    height:260px;
+    border-radius: 8px;
+    background: url("yellow.jpg") top left;
+    box-shadow: 6px 6px 10px #CCC;
+}
+p{
+    font-size: 12px;
+    line-height: 17px;
+    text-align: left;
+}
+
+.back{
+    font-family: brown, arial, sans-serif;
+    text-align: center; 
+    margin-top: 30px;
+    padding:30px;
+}
